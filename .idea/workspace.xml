@@ -9,17 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab28a5e6-bf9a-446c-82e1-3ecaf538f46c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AplikasiKasir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struk_pembayaran.txt" afterDir="false" />
+    <list default="true" id="ab28a5e6-bf9a-446c-82e1-3ecaf538f46c" name="Changes" comment="challenge02">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Challenge02_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,7 @@
       <recent name="D:\CoolYeah\MSIB\Binar\Challenge\Challenge02" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.Challenge02.jar">
+  <component name="RunManager">
     <configuration name="AplikasiKasir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AplikasiKasir" />
       <module name="Challenge02" />
@@ -71,13 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge02.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Challenge02_jar/Challenge02.jar" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.Challenge02.jar" />
         <item itemvalue="Application.AplikasiKasir" />
       </list>
     </recent_temporary>
@@ -91,6 +79,15 @@
       <option name="presentableId" value="Default" />
       <updated>1694154880905</updated>
     </task>
+    <task id="LOCAL-00001" summary="challenge02">
+      <option name="closed" value="true" />
+      <created>1694171047773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694171047773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,10 +110,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="challenge02" />
+    <option name="LAST_COMMIT_MESSAGE" value="challenge02" />
   </component>
 </project>
