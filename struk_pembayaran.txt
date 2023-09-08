@@ -1,0 +1,5 @@
+Struk Pembayaran:
+==================
+Mie Goreng x3 = Rp 39000
+==================
+Total Harga: Rp 39000
