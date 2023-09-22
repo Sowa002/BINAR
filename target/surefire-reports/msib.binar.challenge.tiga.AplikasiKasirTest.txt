@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: msib.binar.challenge.tiga.AplikasiKasirTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in msib.binar.challenge.tiga.AplikasiKasirTest
+testLoadMenu  Time elapsed: 0.048 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <5>
+	at msib.binar.challenge.tiga.AplikasiKasirTest.testLoadMenu(AplikasiKasirTest.java:100)
+
+testSimpanStruk  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Struk Pembayaran:
+==================
+Nasi Goreng x2 = Rp 50000
+Mie Goreng x3 = Rp 66000
+==================
+Total Harga: Rp 116000
+Struk pembayaran telah disimpan.
+> but was: <Struk pembayaran telah disimpan.
+>
+	at msib.binar.challenge.tiga.AplikasiKasirTest.testSimpanStruk(AplikasiKasirTest.java:72)
+
+testTambahItemDanHitungTotal  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <95000> but was: <116000>
+	at msib.binar.challenge.tiga.AplikasiKasirTest.testTambahItemDanHitungTotal(AplikasiKasirTest.java:51)
+

@@ -1,0 +1,6 @@
+Struk Pembayaran:
+==================
+Nasi Goreng x2 = Rp 50000
+Mie Goreng x3 = Rp 66000
+==================
+Total Harga: Rp 116000
