@@ -8,10 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 @Service
 public class StoreServiceImpl implements StoreService{
@@ -23,6 +20,12 @@ public class StoreServiceImpl implements StoreService{
 
     @Autowired
     StoreRepository storeRepository;
+
+    @Override
+    public Store create(Store store) {
+        final Store result = storeRepository.save(store);
+        return result;
+    }
 
     @Override
     public Store addStore(Long merchantId, Store store) {
@@ -44,6 +47,15 @@ public class StoreServiceImpl implements StoreService{
     }
 
     @Override
+    public Store findById(Long id) {
+        Optional<Store> result = storeRepository.findById(id);
+        if (result.isPresent()) {
+            return result.get();
+        }
+        return null;
+    }
+
+    @Override
     public Store mapToEntity(StoreDTO storeDTO) {
         return mapper.convertValue(storeDTO, Store.class);
     }
@@ -52,4 +64,6 @@ public class StoreServiceImpl implements StoreService{
     public StoreDTO mapToDTO(Store store) {
         return mapper.convertValue(store, StoreDTO.class);
     }
+
+
 }

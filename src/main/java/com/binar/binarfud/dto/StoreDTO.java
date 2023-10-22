@@ -1,11 +1,14 @@
 package com.binar.binarfud.dto;
 
+import java.util.List;
 import java.util.Objects;
 
 public class StoreDTO {
     private Long id;
     private String name;
     private String address;
+
+    private List<StuffDTO> stuffs;
 
     public StoreDTO() {
         // Konstruktor default
@@ -41,6 +44,15 @@ public class StoreDTO {
         this.address = address;
     }
 
+    public List<StuffDTO> getStuffs() {
+        return stuffs;
+    }
+
+    public void setStuffs(List<StuffDTO> stuffs) {
+        this.stuffs = stuffs;
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -49,6 +61,7 @@ public class StoreDTO {
         return Objects.equals(id, storeDTO.id) &&
                 Objects.equals(name, storeDTO.name) &&
                 Objects.equals(address, storeDTO.address);
+
     }
 
     @Override
@@ -62,6 +75,7 @@ public class StoreDTO {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
+                ", stuffs=" + stuffs +
                 '}';
     }
 }
