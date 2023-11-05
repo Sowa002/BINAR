@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService{
     public User update(Long id, User user) {
         User result = findById(id);
         if (result != null) {
-            result.setName (user.getName());
+            result.setUsername (user.getUsername());
             return userRepository.save(result);
         }
         return null;
