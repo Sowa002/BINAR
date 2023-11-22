@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    @GetMapping("/home")
+    @GetMapping("/homeless")
     public String home(){
         return "selamat datang di binar";
     }
